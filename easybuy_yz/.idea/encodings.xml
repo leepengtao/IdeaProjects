@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="GBK">
+    <file url="file://$PROJECT_DIR$" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/cn/yz/easybuy/service/NewsService.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/cn/yz/easybuy/servlet/NewsServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/cn/yz/easybuy/servlet/UserServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/Brand.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/BrandList.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/BuyCar.jsp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/BuyCar_Three.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/BuyCar_Three.jsp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/BuyCar_Two.jsp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/Category.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/CategoryList.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/DelAddress.jsp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/Index.jsp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/Login.jsp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/META-INF" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/Member.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/Member_Address.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/Member_Cash.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/Member_Collect.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/Member_Commission.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/Member_Links.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/Member_Member.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/Member_Member_List.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/Member_Money.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/Member_Money_Charge.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/Member_Money_Pay.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/Member_Msg.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/Member_Order.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/Member_Packet.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/Member_Results.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/Member_Results.html.bak" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/Member_Safe.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/Member_User.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/NewAddress.jsp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/Number.jsp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/Product.jsp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/Regist.jsp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/Sell.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/SellDetails.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/WEB-INF" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/backend" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/images" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/js" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,12 @@
+foreach: 演示方法: TestUser下的findByRoles: 根据数组查询
+    迭代一个集合, 通常用于in条件
+    属性:
+        item    循环变量, 相当于var
+        index
+        collection: (必须指定): 被循环变量的属性
+            list
+            array
+            map-key
+        open    循环开始写什么
+        close   循环结束些什么
+        separator 每个中间分割写什么

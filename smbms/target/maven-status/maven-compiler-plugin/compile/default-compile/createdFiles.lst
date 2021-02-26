@@ -1,0 +1,5 @@
+cn\bdqn\smbms\dao\UserDao.class
+cn\bdqn\smbms\entity\Provider.class
+cn\bdqn\smbms\dao\ProviderDao.class
+cn\bdqn\smbms\util\MyBatisUtil.class
+cn\bdqn\smbms\entity\User.class

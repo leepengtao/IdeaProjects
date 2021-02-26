@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--spring开启注解扫描-->
+    <context:component-scan base-package="cn.bdqn.smbms.service"/>
+
+    <!--引入配置文件-->
+    <bean class="org.springframework.context.support.PropertySourcesPlaceholderConfigurer">
+        <property name="location">
+            <value>classpath:jdbc.properties</value>
+        </property>
+    </bean>
+
+    <!--配置数据库连接池-->
+<!--    <bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource" destroy-method="close">-->
+<!--        <property name="driverClassName" value="${driver}"/>-->
+<!--        <property name="Url" value="${url}"/>-->
+<!--        <property name="username" value="${username11}"/>-->
+<!--        <property name="password" value="${password}"/>-->
+<!--    </bean>-->
+    <!--c3p0连接池-->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+                <property name="driverClass" value="${driver}"/>
+                <property name="jdbcUrl" value="${url}"/>
+                <property name="user" value="${username11}"/>
+                <property name="password" value="${password}"/>
+
+    </bean>
+
+    <!-- 配置SqlSessionFactoryBean -->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <!-- 引用数据源组件-->
+        <property name="dataSource" ref="dataSource"/>
+        <!-- 引用MyBatis配置文件中的配置
+        <property name="configLocation" value="classpath:mybatis-config.xml" />-->
+    </bean>
+
+    <!--配置Mybatis的注解扫描-->
+    <bean id="mapperScanner" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="cn.bdqn.smbms.dao"/>
+    </bean>
+</beans>

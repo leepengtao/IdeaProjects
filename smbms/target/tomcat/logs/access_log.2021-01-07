@@ -1,0 +1,10 @@
+0:0:0:0:0:0:0:1 - - [07/Jan/2021:21:04:49 +0800] "GET / HTTP/1.1" 404 951 http-bio-80-exec-1 29
+0:0:0:0:0:0:0:1 - - [07/Jan/2021:21:04:49 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-80-exec-3 1
+0:0:0:0:0:0:0:1 - - [07/Jan/2021:21:08:17 +0800] "GET /login.jsp HTTP/1.1" 200 1381 http-bio-80-exec-1 516
+0:0:0:0:0:0:0:1 - - [07/Jan/2021:21:08:17 +0800] "GET /statics/css/style.css HTTP/1.1" 200 9222 http-bio-80-exec-3 3
+0:0:0:0:0:0:0:1 - - [07/Jan/2021:21:08:17 +0800] "GET /statics/images/loginBg.jpg HTTP/1.1" 200 18389 http-bio-80-exec-4 3
+0:0:0:0:0:0:0:1 - - [07/Jan/2021:21:08:17 +0800] "GET /statics/images/login_bg.jpg HTTP/1.1" 200 45619 http-bio-80-exec-2 2
+0:0:0:0:0:0:0:1 - - [07/Jan/2021:21:08:17 +0800] "GET /statics/images/formBg.png HTTP/1.1" 200 41921 http-bio-80-exec-5 2
+0:0:0:0:0:0:0:1 - - [07/Jan/2021:21:08:37 +0800] "GET /providerlist.jsp HTTP/1.1" 500 3076 http-bio-80-exec-8 46
+0:0:0:0:0:0:0:1 - - [07/Jan/2021:21:08:56 +0800] "GET /login.jsp HTTP/1.1" 200 1381 http-bio-80-exec-7 2
+0:0:0:0:0:0:0:1 - - [07/Jan/2021:21:09:03 +0800] "POST /login.html HTTP/1.1" 404 971 http-bio-80-exec-9 1
